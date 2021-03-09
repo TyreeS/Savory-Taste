@@ -1,0 +1,146 @@
+<!DOCTYPEhtml>
+	<html lang="en-US">
+		
+		<head>			
+			
+			<title> Registration </title>
+			
+			<link rel="stylesheet" type="text/css" href="../CSS/common.css" />
+			
+		</head>
+		
+		<body>
+		
+			<header>
+			
+				<a class= "active" href= "../Savory Taste_Group1.html"> <img src= "../IMG/Home/Edited/SavoryTaste.png" align= "left" alt= "Savory Taste Logo"/> </a>
+				
+				<img src= "../IMG/Home/Edited/plant.jpg" align= "right" alt= "Flowering Plant"/>
+				
+			</header>
+				
+		
+		<nav>
+			<ul>
+				 	<li> <a href= "../Savory Taste_Group1.html"> Home </a> </li>
+					<li> <a href= "About_Group1.html"> About </a> </li> 
+					<li> <a href= "Recipies_Group1.html"> Recipes </a> </li> 
+					<li> <a href= "Gallery_Group1.html"> Gallery </a> </li> 
+					<li> <a href= "Contact_Group1.html"> Contact </a> </li> 
+					<li style="float:right"> <a class= "active" href= "Registration_Group1.html"> Sign Up </a> </li>
+					<li style="float:right"> <a href= "Login_Group1.html"> Login </a> </li>
+				
+			</ul>
+		</nav>
+		
+		<body> 
+		
+		<section>
+
+<!--action URL needs to be included-->
+			<form method= "post" action= "ThankYou_Group1.html">
+			
+				<center> <h1> Registration </h1> </center>
+				
+			<fieldset id= "RForm">
+			
+			<br/>
+			
+				<legend> Personal Information </legend>
+				
+				<label> Title: </label>
+					<select id= "Title" name= "Title">
+						<option value= "value" selected= "selected"> Select a Title </option>
+					Ms.	<option value= "Ms."> Ms. </option>					
+					Mr. <option value= "Mr."> Mr. </option>
+					Mrs.<option value= "Mrs."> Mrs. </option>
+					</select>
+					<br/><br/>
+					
+				<label> First Name: </label>
+					<input type= "text" id= "FirstName" size= "40" /> 
+					<br/><br/>
+					
+				<label> Last Name: </label>	
+					<input type= "text" id= "LastName" size= "40" />
+					<br/><br/>
+					
+				<label> Address: </label> 
+					<textarea id= "Address" name= "Address" rows= "5" cols= "20"> </textarea>
+					<br/><br/>
+					
+				<label> Sex: </label>
+					Male: 	<input type= "radio" id= "M_Sex" name= "Sex" value= "Male" /> &nbsp; &nbsp;
+					Female:	<input type= "radio" id= "F_Sex" name= "Sex" value= "Female" />
+					<br/><br/>
+					
+				<label> Email: </label>
+					<input type= "Email" id= "Email" size= "50" />
+					<br/><br/>
+					
+			</fieldset>
+
+			<br/><br/><br/>
+	
+<!--Sign Up Information-->	
+			<fieldset id= "RForm">
+			
+			<br/>
+			
+				<legend> Sign Up Information </legend>
+				
+				<label> User Name </label>
+					<input type= "text" id= "UserName" />
+					<br/><br/>
+					
+				<label> Meal Choice: </label>
+					Breakfast:	<input type= "checkbox" id= "B_MealChoice" name= "MealChoice" value= "Breakfast" /> &nbsp; &nbsp;
+					Lunch:		<input type= "checkbox" id= "L_MealChoice" name= "MealChoice" value= "Lunch" /> &nbsp; &nbsp;
+					Snack:		<input type= "checkbox" id= "S_MealChoice" name= "MealChoice" value= "Snack" /> &nbsp; &nbsp; 
+					Dinner:		<input type= "checkbox" id= "D_MealChoice" name= "MealChoice" value= "Dinner" /> 
+					<br/><br/>
+					
+				<label> Password: </label>
+					<input type= "Password" id= "pword" name= "pword" />
+					<br/><br/>
+					
+				<label> Confirm Password: </label>
+					<input type= "Password" id= "pword" name= "pword" />
+					<br/><br/>
+				
+<!--Consider removing Span from here-->				
+				<span>
+				
+					<input type= "SUBMIT" value= "REGISTER" /> &nbsp; &nbsp;
+					<input type= "RESET" value= "RESET" /> 
+					
+				</span>
+				
+			</fieldset> 
+			
+			</form>
+				
+		
+			<br/>
+			
+			<p> Already a member? Click here to <a href= "Login_Group1.html"> Login... </a> </p>
+			
+			<br/><br/><br/>
+			
+		</section>	
+					
+		<footer>
+		
+				<p> Copyright &copy <a href= "About_Group1.html"> Savory Taste </a> </p> 
+				 
+				<a class="socialLinks" href= "https://www.twitter.com/taste_savory"> <img src="../IMG/Social Icons/twitter2.png" width= "3%" alt= "Twitter Icon"/></a>
+				 
+				<a class="socialLinks" href= "https://www.pinterest.com/savorytaste/"> <img src="../IMG/Social Icons/Pinterest2.png" width= "3%" alt= "Pintrest Icon"/></a>
+				 
+				<a class="socialLinks" href="https://www.instagram.com/savorytastett/"> <img src="../IMG/Social Icons/insta2.png" width= "3%" alt= "Pintrest Icon"/></a> 
+					
+		</footer>
+			
+		</body>
+		
+	</html>
